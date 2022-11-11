@@ -20,7 +20,7 @@ p {
 
 img {
     display: block;
-    max-width: 600px;
+    max-width: 100%;
     margin: 10px auto;
     border-radius: 5px;
 
@@ -35,8 +35,3 @@ img {
     text-align: center;
 }
 
-@media all and (max-width: 600px){
-    img {
-        max-width: 400px;
-    }
-}
