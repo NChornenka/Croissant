@@ -1,0 +1,40 @@
+body {
+    padding: 20px;
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.links a {
+    padding: 10px;
+    color: green;
+
+}
+
+img {
+    display: block;
+    max-width: 600px;
+    margin: 10px auto;
+
+}
+.links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+@media all and (max-width: 600px){
+    img {
+        max-width: 400px;
+    }
+}
